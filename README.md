@@ -36,7 +36,7 @@ CMD ["npm", "start"]
 ```
 
 ### DOCKER-COMPOSE Content
-
+```
 # The version of the compose file format.
 version : '3'
 
@@ -62,3 +62,4 @@ services :
     container_name : mongodb 
     ports : 
       - 27017:27017
+ ```
